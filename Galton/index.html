@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Set the width of the document, or not -->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- First use the latest version of IE and Chrome -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>首页</title>
+    <!-- Keyword -->
+    <meta name="keywords" content="">
+    <!-- describe -->
+    <meta name="description" content="">
+
+    <!--[if lte IE 8]>
+    <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a
+            href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a
+            href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+    <![endif]-->
+    <!--[if lte IE 6]>
+    <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a
+            href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+    <![endif]-->
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- 360 use Google Chrome Frame -->
+    <meta name="renderer" content="webkit">
+    <!-- Baidu prohibition of transcoding -->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <!-- Definition of web search engine index -->
+    <meta name="robots" content="index,follow">
+    <!-- ios -->
+    <!-- The title that is added to the main screen -->
+    <meta name="apple-mobile-web-app-title" content="标题">
+    <!-- Whether WebApp full screen mode is enabled -->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <!-- Setting the background color of the State Bar -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Android theme-color  Used to control the color of the tabs -->
+    <meta name="theme-color" content="#747474">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Turn off the translation plug-in under the Chrome browser -->
+    <meta name="google" value="notranslate"/>
+    <!-- uc Forced vertical screen -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ Forced vertical screen -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC Mandatory full screen -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ Mandatory full screen -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC Application mode -->
+    <meta name="browsermode" content="application">
+    <!-- QQ Application mode -->
+    <meta name="x5-page-mode" content="app">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-other.css">
+    <link href="css/style.less" rel="stylesheet/less" type="text/css"/>
+    <!-- css.css/css2.css -> It's not ours, mustn't delete and must under your css...hehe-->
+    <link href="css/cs.css" rel="stylesheet" type="text/css"/>
+    <link href="css/cs2.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/less.min.js"></script>
+    <script type="text/javascript">
+        less.watch();
+    </script>
+</head>
+
+<body>
+
+<!-- header -->
+<div id="header">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h1 class="navbar-brand">
+                    <a href="#" title="">
+                        <img src="images/header/logo.png" alt=""><br>
+                        <p class="navbar-text">GOOD SLEEP FOR EVERYBODY</p>
+                    </a>
+                </h1>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#HOME">HOME</a>
+                    </li>
+                    <li class="hasdrop">
+                        <a href="#PRODUCT" class="hasdrop">
+                            PRODUCT<em class="mobile-navbtn"></em>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">second level</a></li>
+                            <li class="hasdrop">
+                                <a href="#">
+                                    sub menu<em class="mobile-navbtn iconb"></em>
+                                </a>
+                                <ul class="dropdown-menu multi">
+                                    <li><a href="#">third level</a></li>
+                                    <li><a href="#">third level</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hasdrop">
+                        <a href="#ABOUT US" class="hasdrop">
+                            ABOUT US<em class="mobile-navbtn"></em>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">second level</a></li>
+                            <li class="hasdrop">
+                                <a href="#">
+                                    sub menu<em class="mobile-navbtn iconb"></em>
+                                </a>
+                                <ul class="dropdown-menu multi">
+                                    <li><a href="#">third level</a></li>
+                                    <li><a href="#">third level</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hasdrop">
+                        <a href="#CASE" class="hasdrop">
+                            CASE<em class="mobile-navbtn"></em>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">second level</a></li>
+                            <li class="hasdrop">
+                                <a href="#">
+                                    sub menu<em class="mobile-navbtn iconb"></em>
+                                </a>
+                                <ul class="dropdown-menu multi">
+                                    <li><a href="#">third level</a></li>
+                                    <li><a href="#">third level</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hasdrop">
+                        <a href="#NEWS" class="hasdrop">
+                            NEWS<em class="mobile-navbtn"></em>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">second level</a></li>
+                            <li class="hasdrop">
+                                <a href="#">
+                                    sub menu<em class="mobile-navbtn iconb"></em>
+                                </a>
+                                <ul class="dropdown-menu multi">
+                                    <li><a href="#">third level</a></li>
+                                    <li><a href="#">third level</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hasdrop">
+                        <a href="#CONTACT US" class="hasdrop">
+                            CONTACT US<em class="mobile-navbtn"></em>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">second level</a></li>
+                            <li class="hasdrop">
+                                <a href="#">
+                                    sub menu<em class="mobile-navbtn iconb"></em>
+                                </a>
+                                <ul class="dropdown-menu multi">
+                                    <li><a href="#">third level</a></li>
+                                    <li><a href="#">third level</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nohover search-box">
+                        <a href="javascript:;" class="search-btn"><img src="images/header/search.png"></a>
+                        <div class="header-top-sreach-box">
+                            <div class="header-top-form">
+                                <input class="header-top-form-input" name="s" placeholder="Search..." type="text">
+                                <input type="hidden" name="post_type" value="product">
+                                <input class="header-top-form-sbm" type="submit">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nohover hidden-xs">
+                        <a href="#EN" class="language">EN <img src="images/header/hmore.png"></a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+</div>
+
+<div class="page_content">
+    <section class="section_one">
+        <div class="swiper-container" id="section_one_banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/banenr.png"></div>
+                <div class="swiper-slide"><img src="images/banenr.png"></div>
+                <div class="swiper-slide"><img src="images/banenr.png"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="section_style section_second">
+        <div class="section_title">
+            <h4>PRODUCT CENTER</h4>
+            <p>A wide range of products, sufficient inventory to meet customer needs</p>
+        </div>
+        <div class="container">
+            <div class="flex_div">
+                <div class="tab_item active" data-index="1">
+                    <div class="img_box">
+                        <div class="img_icon tab1_btn">
+                        </div>
+                    </div>
+                    <p>Mattress</p>
+                </div>
+                <div class="tab_item" data-index="2">
+                    <div class="img_box small">
+                        <div class="img_icon tab2_btn">
+                        </div>
+                    </div>
+                    <p>Soft bed</p>
+                </div>
+                <div class="tab_item" data-index="3">
+                    <div class="img_box small">
+                        <div class="img_icon tab3_btn">
+                        </div>
+                    </div>
+                    <p>Sofa</p>
+                </div>
+                <div class="tab_item" data-index="4">
+                    <div class="img_box small">
+                        <div class="img_icon tab4_btn">
+                        </div>
+                    </div>
+                    <p>Intelligent bed</p>
+                </div>
+            </div>
+            <div class="tab_box active fade_in">
+                <div class="flex_div_content">
+                    <div class="surplus">
+                        <div class="product_box">
+                            <img src="images/product/product1.png">
+                        </div>
+                        <div class="product_title">
+                            <h4>HOT RECOMMEND</h4>
+                            <p class="p1">CIFF GUANGZHOU NEW DESIGN</p>
+                            <p class="p2">Comfortable italian mattress</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="product_box">
+                            <img src="images/product/product2.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_div_content">
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product3.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product4.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product5.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product6.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_box fade_in">
+                <div class="flex_div_content">
+                    <div class="surplus">
+                        <div class="product_box">
+                            <img src="images/product/product1.png">
+                        </div>
+                        <div class="product_title">
+                            <h4>HOT RECOMMEND</h4>
+                            <p class="p1">CIFF GUANGZHOU NEW DESIGN</p>
+                            <p class="p2">Comfortable italian mattress</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="product_box">
+                            <img src="images/product/product2.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_div_content">
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product3.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product4.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product5.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product6.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_box fade_in">
+                <div class="flex_div_content">
+                    <div class="surplus">
+                        <div class="product_box">
+                            <img src="images/product/product1.png">
+                        </div>
+                        <div class="product_title">
+                            <h4>HOT RECOMMEND</h4>
+                            <p class="p1">CIFF GUANGZHOU NEW DESIGN</p>
+                            <p class="p2">Comfortable italian mattress</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="product_box">
+                            <img src="images/product/product2.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_div_content">
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product3.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product4.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product5.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product6.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_box fade_in">
+                <div class="flex_div_content">
+                    <div class="surplus">
+                        <div class="product_box">
+                            <img src="images/product/product1.png">
+                        </div>
+                        <div class="product_title">
+                            <h4>HOT RECOMMEND</h4>
+                            <p class="p1">CIFF GUANGZHOU NEW DESIGN</p>
+                            <p class="p2">Comfortable italian mattress</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="product_box">
+                            <img src="images/product/product2.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_div_content">
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product3.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product4.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product5.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="product_box">
+                            <img src="images/product/product6.png">
+                        </div>
+                        <div class="product_title">
+                            <div class="title_content">
+                                <p class="title_hover">Mattress</p>
+                                <p class="title_really"><span>Mattress 3301</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_style section_third">
+        <div class="section_title">
+            <h4>Our advantage</h4>
+            <p>We specialize in the production of leather and fabric sofas, soft beds, mattresses,<br>
+                bedding and other international business products. We use four major advantages to tell you why we
+                choose us.</p>
+        </div>
+        <div class="container">
+            <div class="flex_div_content">
+                <div class="item_box">
+                    <h4>12<span>YEARS</span></h4>
+                    <p>Our company has 12 years of experience in making mattresses, beds and sofas.</p>
+                    <div class="icon_box">
+                        <i class="box1_icon"></i>
+                    </div>
+                </div>
+                <div class="item_box">
+                    <h4>300<span class="big">+</span></h4>
+                    <p>We have more than 300 technical workers and a team of engineers, advanced </p>
+                    <div class="icon_box">
+                        <i class="box2_icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex_div_content">
+                <div class="item_box">
+                    <h4>1500<span class="big">㎡</span></h4>
+                    <p>Our factory has over 15,000 square meters.</p>
+                    <div class="icon_box">
+                        <i class="box3_icon"></i>
+                    </div>
+                </div>
+                <div class="item_box">
+                    <h4>600<span class="big">+</span></h4>
+                    <p>Our production reaches 600 containers per year.</p>
+                    <div class="icon_box">
+                        <i class="box4_icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_fourth">
+        <div class="section_title">
+            <div class="positionB_box">
+                <h4 class="">About Golden furniture</h4>
+                <p>Golden furniture helps you find a different home life</p>
+            </div>
+        </div>
+        <div class="flex_about_content">
+            <div class="left">
+                <div class="image_box">
+                    <img src="images/about/bg.png">
+                </div>
+            </div>
+            <div class="right"></div>
+            <div class="float_box">
+                <div class="container">
+                    <div class="flex_about_content">
+                        <div class="left">
+                            <div class="video_box">
+                                <div class="center_box">
+                                    <img src="images/about/video.png"/>
+                                    <p>FINE FURNITURE,LET YOU ENJOY A DIFFERENT HOME LIFE</p>
+                                    <button class="more">CLICK TO ENJOY</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="adv_box">
+                                <div class="center_box">
+                                    <h4>GOOD SLEEP FOR EVERYBODY</h4>
+                                    <p>Foshan Golden Furniture Co., Ltd is a professional furniture manufacturer and
+                                        trading enterprise with more than 11 years manufacturing experience. We have
+                                        our own factory, and trading Service Company, we specialized in producing
+                                        leather and fabric sofa, soft bed, mattress, bedding and other products for
+                                        international business. Product mainly export to market Europe, US, Middle
+                                        ...</p>
+                                    <button>
+                                        READ MORE
+                                        <img src="images/case/left-active.png"/>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container factory_container">
+            <div class="about_title">
+                <h4>FACTORY STRENGTH</h4>
+                <a href="#">MORE</a>
+            </div>
+            <div class="factory_box_flex">
+                <div class="flex_item">
+                    <div class="item_box">
+                        <div class="image_box">
+                            <img src="images/about/factory1.png">
+                        </div>
+                        <div class="item_title">
+                            <span title="Workshop name">Workshop name</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_item">
+                    <div class="item_box">
+                        <div class="image_box">
+                            <img src="images/about/factory2.png">
+                        </div>
+                        <div class="item_title">
+                            <span title="Workshop name">Workshop name</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_item">
+                    <div class="item_box">
+                        <div class="image_box">
+                            <img src="images/about/factory3.png">
+                        </div>
+                        <div class="item_title">
+                            <span title="Workshop name">Workshop name</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex_item">
+                    <div class="item_box">
+                        <div class="image_box">
+                            <img src="images/about/factory4.png">
+                        </div>
+                        <div class="item_title">
+                            <span title="Workshop name">Workshop name</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="special_bg">
+        <img class="bg_a" src="images/bg_a.png">
+        <img class="bg_b" src="images/bg_b.png">
+        <section class="section_style section_fifth">
+            <div class="section_title">
+                <h4>Case Center</h4>
+                <p class="black_style">See who has chosen us</p>
+            </div>
+            <div class="container">
+                <div class="swiper_box">
+                    <div class="swiper-container" id="case_swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item_box">
+                                    <div class="image_box">
+                                        <img src="images/case/swiper1.png">
+                                    </div>
+                                    <div class="item_title">
+                                        <span title="Business Cooperation Case 1">Business Cooperation Case 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item_box">
+                                    <div class="image_box">
+                                        <img src="images/case/swiper2.png">
+                                    </div>
+                                    <div class="item_title">
+                                        <span title="Business Cooperation Case 1">Business Cooperation Case 2</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item_box">
+                                    <div class="image_box">
+                                        <img src="images/case/swiper3.png">
+                                    </div>
+                                    <div class="item_title">
+                                        <span title="Business Cooperation Case 1">Business Cooperation Case 3</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item_box">
+                                    <div class="image_box">
+                                        <img src="images/case/swiper1.png">
+                                    </div>
+                                    <div class="item_title">
+                                        <span title="Business Cooperation Case 1">Business Cooperation Case 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item_box">
+                                    <div class="image_box">
+                                        <img src="images/case/swiper2.png">
+                                    </div>
+                                    <div class="item_title">
+                                        <span title="Business Cooperation Case 1">Business Cooperation Case 2</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item_box">
+                                    <div class="image_box">
+                                        <img src="images/case/swiper3.png">
+                                    </div>
+                                    <div class="item_title">
+                                        <span title="Business Cooperation Case 1">Business Cooperation Case 3</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case-button-prev" id="case-button-prev"></div><!--左箭头-->
+                    <div class="case-button-next" id="case-button-next"></div><!--右箭头-->
+                </div>
+                <div class="more_box">
+                    <button class="read_more">READ MORE <img src="images/case/left.png" alt=""></button>
+                </div>
+            </div>
+        </section>
+        <section class="section_style section_sixth">
+            <div class="section_title">
+                <h4>NEWS CENTER</h4>
+                <p class="black_style">Keep up to date with Golden Furniture</p>
+            </div>
+            <div class="container">
+                <div class="flex_news_content">
+                    <div class="left">
+                        <div class="news_box active">
+                            <img src="images/news/bg.png" alt="">
+                            <div class="news_content_box">
+                                <div class="news_top">
+                                    <div class="left">
+                                        <img class="date" src="images/news/date.png" alt="">
+                                        <span>2009-08-30</span>
+                                    </div>
+                                    <div class="right">
+                                        <img class="view" src="images/news/view.png" alt="">
+                                        <span>89</span>
+                                    </div>
+                                </div>
+                                <div class="news_title">
+                                    <p>
+                                        2009 Alibaba's 6th Global Top
+                                        Ten Internet Business going to
+                                    </p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="news_content">
+                                    <p>
+                                        Dear Friends,<br/>
+                                        We will be on here Spring Festival Holiday !!!<br/>
+                                        May share this happyness days with all of our clients and ...
+                                    </p>
+                                </div>
+                                <div class="more_btn">
+                                    <button class="more">MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news_box">
+                            <img src="images/news/news1.png" alt="">
+                            <div class="news_content_box">
+                                <div class="news_top">
+                                    <div class="left">
+                                        <img class="date" src="images/news/date.png" alt="">
+                                        <span>2009-08-30</span>
+                                    </div>
+                                    <div class="right">
+                                        <img class="view" src="images/news/view.png" alt="">
+                                        <span>89</span>
+                                    </div>
+                                </div>
+                                <div class="news_title">
+                                    <p>
+                                        2009 Alibaba's 6th Global Top
+                                        Ten Internet Business going to
+                                    </p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="news_content">
+                                    <p>
+                                        Dear Friends,<br/>
+                                        We will be on here Spring Festival Holiday !!!<br/>
+                                        May share this happyness days with all of our clients and ...
+                                    </p>
+                                </div>
+                                <div class="more_btn">
+                                    <button class="more">MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news_box">
+                            <img src="images/news/news2.png" alt="">
+                            <div class="news_content_box">
+                                <div class="news_top">
+                                    <div class="left">
+                                        <img class="date" src="images/news/date.png" alt="">
+                                        <span>2009-08-30</span>
+                                    </div>
+                                    <div class="right">
+                                        <img class="view" src="images/news/view.png" alt="">
+                                        <span>89</span>
+                                    </div>
+                                </div>
+                                <div class="news_title">
+                                    <p>
+                                        2009 Alibaba's 6th Global Top
+                                        Ten Internet Business going to
+                                    </p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="news_content">
+                                    <p>
+                                        Dear Friends,<br/>
+                                        We will be on here Spring Festival Holiday !!!<br/>
+                                        May share this happyness days with all of our clients and ...
+                                    </p>
+                                </div>
+                                <div class="more_btn">
+                                    <button class="more">MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="tab_content">
+                            <div class="tab_flex active" data-index="1">
+                                <div class="image_box">
+                                    <img src="images/news/news1.png">
+                                </div>
+                                <div class="content_infor">
+                                    <h4>October 2015 Galton Furniture honors the </h4>
+                                    <p>We have hired a diligent team of professionals,
+                                        after following some stringent and rigorous ...</p>
+                                    <span>2015-03-17</span>
+                                </div>
+                            </div>
+                            <div class="tab_flex" data-index="2">
+                                <div class="image_box">
+                                    <img src="images/news/news2.png">
+                                </div>
+                                <div class="content_infor">
+                                    <h4>October 2015 Galton Furniture honors the </h4>
+                                    <p>We have hired a diligent team of professionals,
+                                        after following some stringent and rigorous ...</p>
+                                    <span>2015-03-17</span>
+                                </div>
+                            </div>
+                            <div class="tab_flex" data-index="3">
+                                <div class="image_box">
+                                    <img src="images/news/news3.png">
+                                </div>
+                                <div class="content_infor">
+                                    <h4>October 2015 Galton Furniture honors the </h4>
+                                    <p>We have hired a diligent team of professionals,
+                                        after following some stringent and rigorous ...</p>
+                                    <span>2015-03-17</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="section_style section_seventh dark">
+        <div class="section_title">
+            <h4>Partner</h4>
+            <p>They chose us</p>
+        </div>
+        <div class="container">
+            <div class="swiper_box">
+                <div class="swiper-container" id="partner_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner1.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner2.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner3.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner4.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner5.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner1.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner2.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner3.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner4.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item_box">
+                                <div class="image_box">
+                                    <img src="images/partner/partner5.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="partner-button-prev" id="partner-button-prev"></div><!--左箭头-->
+                <div class="partner-button-next" id="partner-button-next"></div><!--右箭头-->
+            </div>
+        </div>
+    </section>
+    <section class="section_eighth">
+        <div class="container">
+            <div class="flex_box">
+                <div class="item_box">
+                    <div class="contact_box">
+                        <h4>CONTACT US</h4>
+                        <p>If you have any needs or questions, you can contact us through our contact information, we
+                            will give you a satisfactory result in time, look forward to your contact.</p>
+                        <p class="bold">
+                            Foshan Golden Furniture Co., Ltd
+                        </p>
+                        <div class="flex_contact">
+                            <div class="left">
+                                <img src="images/contact/contact1.png"/>
+                                Phone：
+                            </div>
+                            <div class="right">
+                                +86 0757-8655 6888
+                            </div>
+                        </div>
+                        <div class="flex_contact">
+                            <div class="left">
+                                <img src="images/contact/contact2.png"/>
+                                Mailbox：
+                            </div>
+                            <div class="right">
+                                golden001@grdfurniture.com
+                            </div>
+                        </div>
+                        <div class="flex_contact">
+                            <div class="left">
+                                <img src="images/contact/contact3.png"/>
+                                Address ：
+                            </div>
+                            <div class="right">
+                                Zone-D, No.6 Yuannan Er Road, Shazui Industrial
+                                area, Jiujiang Town, Nanhai district， FoShan City,
+                                Guangdong Province, China 528203
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item_box">
+                    <div class="contact_from">
+                        <div class="input_box">
+                            <input type="text"/>
+                            <span>* Name ：</span>
+                        </div>
+                        <div class="input_box">
+                            <input type="text"/>
+                            <span>* Mailbox ：</span>
+                        </div>
+                        <div class="input_box">
+                            <input type="text"/>
+                            <span>Phone ：</span>
+                        </div>
+                        <textarea placeholder="Message content："></textarea>
+                        <button>SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="footer">
+    <div class="container">
+        <p>Technical support: <span>baiila</span><span>sitemap</span></p>
+        <div class="links">
+            Links
+            <div class="dropup">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    baiila
+                    <img src="images/case/left.png">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- back to top -->
+<div id="backtop">
+    <ul>
+        <li><a href="javascript:goTop();" class="sidetop"></a></li>
+    </ul>
+</div>
+
+<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--Swiper.js-->
+<script src="js/swiper-4.3.5.min.js"></script>
+<!-- main.js -> The other init scripts in here -->
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
